@@ -20,9 +20,9 @@ async function extractNames() {
   for await (const record of parser) {
     const row = { title: record.title };
     for (const key in record) {
-      if (key.startsWith("name_")) {
+      if (key.startsWith("name_") || key === "nicknames") {
         row[key] = record[key];
-        headers.add(key); // Add name_* headers
+        headers.add(key); // Add name_* and nicknames headers
       }
     }
     nameData.push(row);

@@ -79,10 +79,10 @@ All generated CSV files are stored in the `data/` directory:
   ...
   ```
 
-- `name_list.csv`: Contains only the `title` and all `name_*` fields for each character.
+- `name_list.csv`: Contains the `title`, `nicknames`, and all `name_*` fields for each character.
   ```csv
-  title,name_jp,name_kana,name_ro,name_tcn,name_scn,name_hkjc,name_kr
-  "Admire_Groove","アドマイヤグルーヴ",,"愛慕律動",,,,,
-  "Admire_Vega","アドマイヤベガ",,"愛慕織姬",,,,,
+  title,nicknames,name_jp,name_kana,name_ro,name_tcn,name_scn,name_hkjc,name_kr
+  "Admire_Groove",,"アドマイヤグルーヴ",,"愛慕律動",,,,,
+  "Admire_Vega",,"アドマイヤベガ",,"愛慕織姬",,,,,
   ...
   ```
