@@ -3,8 +3,5 @@ node_modules/
 npm-debug.log*
 .env
 
-# Generated data files
-data/
-
 # OS generated files
 .DS_Store
