@@ -1,0 +1,21 @@
+{
+  "name": "umamusu-webscraper",
+  "version": "1.0.0",
+  "description": "Webscraper for Uma Musume wiki character data",
+  "main": "main.js",
+  "scripts": {
+    "scrape-list": "node scrape_char_list.js",
+    "scrape-data": "node main.js",
+    "extract-names": "node extract_names.js",
+    "full-scrape": "npm run scrape-list && npm run scrape-data && npm run extract-names"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "csv-parse": "^6.1.0",
+    "csv-writer": "^1.6.0"
+  }
+}
